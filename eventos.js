@@ -5,5 +5,6 @@ divElement.addEventListener('click', function() {
 });
 
 function myFunction() {
+    event.stopPropagation();
     alert("Hola!");
 }
